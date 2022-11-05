@@ -1,4 +1,4 @@
-# Docker Playgorund
+# Docker Playgorund - golang
 
 コンテナ上でgoの実行環境を構築しVisual Studio Codeから接続・実行できる環境を提供する
 
