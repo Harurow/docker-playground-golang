@@ -1,0 +1,13 @@
+version: '3'
+services:
+  playground:
+    container_name: 'golang'
+    hostname: 'golang'
+    build: .
+    restart: always
+    working_dir: '/opt'
+    tty: true
+    volumes:
+      - type: bind
+        source: ../opt
+        target: /opt
