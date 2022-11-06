@@ -16,6 +16,10 @@
 
 ホスト側の`opt`フォルダをコンテナ側の`/opt`としてマウントしている
 
+以下のVisual Studio Code 拡張をインストール
+
+* golang.Go
+
 ## 使い方
 
 [Docker Desktop](https://www.docker.com/products/docker-desktop/)を立ち上げる
