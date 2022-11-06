@@ -12,3 +12,7 @@ RUN apt-get update \
     && chmod 0440 /etc/sudoers.d/$USERNAME
 
 RUN apt-get -y install curl git
+
+USER vscode
+
+RUN go install -v golang.org/x/tools/gopls@latest
