@@ -12,9 +12,9 @@
 * `curl`
 
 実行ユーザ:`vscode`  
-ワークスペース:`/opt`  
+ワークスペース:`/workspace`  
 
-ホスト側の`opt`フォルダをコンテナ側の`/opt`としてマウントしている
+ホスト側の`workspace`フォルダをコンテナ側の`/workspace`としてマウントしている
 
 以下のVisual Studio Code 拡張をインストール
 
